@@ -6,16 +6,32 @@
         android:id="@+id/listViewSlots"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_above="@+id/deleteButton"
-        android:layout_marginBottom="8dp"/>
+        android:layout_above="@+id/buttonsLayout"
+        android:layout_marginBottom="8dp" />
 
-    <Button
-        android:id="@+id/deleteButton"
-        android:layout_width="wrap_content"
+    <RelativeLayout
+        android:id="@+id/buttonsLayout"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="16dp"
-        android:text="Delete All Slots"/>
+        android:layout_marginBottom="16dp">
+
+        <Button
+            android:id="@+id/deleteButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="8dp"
+            android:text="Delete All Slots" />
+
+        <Button
+            android:id="@+id/logoutButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="157dp"
+            android:layout_toRightOf="@id/deleteButton"
+            android:onClick="logoutAdmin"
+            android:text="Logout" />
+
+    </RelativeLayout>
 
 </RelativeLayout>
