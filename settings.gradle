@@ -1,0 +1,2 @@
+rootProject.name='androidBooking'
+include ':app'

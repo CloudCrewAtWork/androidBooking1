@@ -1,0 +1,47 @@
+{
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:20852769003:android:1586a7dc4c36f07914beae",
+        "android_client_info": {
+          "package_name": "com.anurag.androidbooking"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "20852769003-s2tr87cu2pnqq28mdkedgheel0mu0413.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDe7oQCZQtsLY6se6weHAZ3Elb_fba99p0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "20852769003-s2tr87cu2pnqq28mdkedgheel0mu0413.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "20852769003-1khpkb9pp73pr7ji3udl8m720c9o4m09.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "COM.ANURAG.Booking"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1",
+  "project_info": {
+    "project_number": "20852769003",
+    "firebase_url": "https://bookingapp-d730b.firebaseio.com",
+    "project_id": "bookingapp-d730b",
+    "storage_bucket": "bookingapp-d730b.appspot.com"
+  }
+}
